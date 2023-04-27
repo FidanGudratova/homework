@@ -13,12 +13,145 @@
 // }
 // fourth(num);
 //3
-let phoneNumber = +prompt('entered 11 number');
-function isvalidnumber(item) {
-     let number = item.length === 13 && '\+ \7 +number' ? 'true' : 'false' ;
+// let phoneNumber = prompt('entered number');
+// function isvalidnumber(item) {
+//     if(item.length === 13 && (item[0] + item[1]) === "+7" ) {
+//     console.log(true);
+// } else {
+//     console.log (false); 
+//  }
+// }
+// isvalidnumber(phoneNumber);
+//3 alternative
+// let phoneNumber = prompt('entered number');
+// function isvalidnumber(item) {
+//     let isvalidnumber = item.length === 13 && (item[0] + item[1]) == "+7" ? console.log(true) : console.log(false) ;
+// }
+// isvalidnumber(phoneNumber);
+//4
+// let value = prompt('eded daxil edin');
+// function numberToWord(number){
+//     let x, y; 
+//     if(number < 10){
+//         y = lower10(number[0]);
+//         x = '';
+//     } else{
+//         y = lower10(number[1]);
+//         switch(number[0]){
+//             case '1':
+//                 x='On'
+//                 break;
+//             case '2':
+//                 x='Iyirmi'
+//             break;
+//             case '3':
+//                 x='Otuz'
+//             break;
+//             case '4':
+//                 x='Qirx'
+//             break;
+//             case '5':
+//                 x='Elli'
+//             break;
+//             case '6':
+//                 x='Altmis'
+//             break;
+//             case '7':
+//                 x='Yetmis'
+//             break;
+//             case '8':
+//                 x='Seksen'
+//             break;
+//             case '9':
+//                 x='Dogsan'
+//             break;
 
-    }
-
-isvalidnumber(phoneNumber);
-
-
+//         }
+//     }
+//     console.log(`${x} ${y}`) ; 
+// }
+// function lower10(y){
+//     switch(y){
+//         case '0':
+//             y = ''
+//         break;
+//         case '1':
+//             y = 'Bir'
+//         break;
+//         case '2':
+//             y = 'Iki'
+//         break;
+//         case '3':
+//             y = 'Uc'
+//         break;
+//         case '4':
+//             y = 'Dord'
+//         break;
+//         case '5':
+//         y = 'Bes'
+//         break;
+//         case '6':
+//             y = 'Alti'
+//         break;
+//         case '7':
+//             y = 'Yeddi'
+//         break;
+//         case '8':
+//             y = 'Sekkiz'
+//         break;
+//         case '9':
+//             y = 'Doqquz'
+//         break;
+//     }
+//     return y;
+// }
+// numberToWord(value);
+//5
+// let num = prompt('metn daxil edin');
+// function numCounter(number) {
+//     let numCounter = number.length;
+//     console.log (numCounter);
+// }
+// numCounter(num);
+//6 ??????????????????????????????????????????????????????????????????
+// let num = +prompt('n ?');
+// function prime(number) {
+//    if (number === 2) {console.log(number);}
+//   else if (number <2) {console.log(false); }
+//     for (let i = 2; i < number; i++) {
+//         if ( number % i === 0 ) {
+//         console.log (false);
+//         return false;
+//     } 
+// }
+//    console.log(number);
+// }
+// prime(num);
+//7 parametrli dovr tapsiriq 1 10!
+//   let start = 1;
+//   for (let i = 1; i <= 10; i++) {
+//     start *= i;
+//   }
+//   console.log (start);
+//8 tapsiriq 2 metni ters cevirmek
+//  let text = prompt('entered text');
+//  function reverseText(inputText) {
+//   const characters = inputText.split('');
+//   const reversedCharacters = characters.reverse();
+//   const reversedText = reversedCharacters.join('');
+//   console.log (reversedText);
+// }
+// reverseText(text);
+//9 tapsiriq 3 index tapilmasi
+// const text = 'hello world. hello';
+// for (let i = 0; i < text.length; i++) {
+//     if (text[i] === '.') {
+//         console.log(i);
+//         break; 
+//   }
+// }
+//10 2reqemli ededi 7 7 artirmaq
+// let num = +prompt('2reqemli eded daxil edin');
+// while (num<100) {
+//     num+=7;
+// } console.log(num);
