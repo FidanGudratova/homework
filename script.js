@@ -155,3 +155,36 @@
 // while (num<100) {
 //     num+=7;
 // } console.log(num);
+// Array Massivlər 30.04
+// tapshiriq 1
+// let array = ['new hope' , 'empire' , 'return of jdi'];
+// array[1] = 'classified';
+// console.log(array);
+// tapsiriq 2
+// let array = ['new hope' , 'empire' , 'return of jdi'];
+// for (let i = 0; i<array.length; i++) {
+//     console.log(`episode ${i+4} + ${array[i]}`);
+// }
+// tapsiriq 3
+// let array = ['fidan' , 'gudratova' , 'sumaya'];
+// array.push('mohammadi');
+// array.shift();
+// console.log(array);
+// tapsiriq 4
+// console.log('32, 33, 34, 35, 36,'.split(',').join(';'));
+// tapsiriq 5
+// let arr = ['1', '2', '3', '4', '5', '6', '7'];
+// let arrMax = Math.max('1', '2', '3', '4', '5', '6', '7');
+// console.log(arrMax);
+// console.log(...arr);
+// tapsiriq 6
+// let arrMain = ['1', '2', '3', '4', '5'];
+// let arrAdd =[...arrMain]; 
+// arrAdd[0] *= 2;
+// arrAdd[1] *= 2;
+// arrAdd[2] *= 2;
+// arrAdd[3] *= 2;
+// arrAdd[4] *= 2;
+// console.log(arrAdd);
+// console.log(arrMain);
+// end
