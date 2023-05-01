@@ -178,7 +178,7 @@
 // console.log(arrMax);
 // console.log(...arr);
 // tapsiriq 6
-// let arrMain = ['1', '2', '3', '4', '5'];
+// let arrMain = [1, 2, 3, 4, 5];
 // let arrAdd =[...arrMain]; 
 // arrAdd[0] *= 2;
 // arrAdd[1] *= 2;
@@ -188,3 +188,4 @@
 // console.log(arrAdd);
 // console.log(arrMain);
 // end
+
