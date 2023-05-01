@@ -188,4 +188,20 @@
 // console.log(arrAdd);
 // console.log(arrMain);
 // end
+// 01/05
+// let arr = [2, 3, -2, 0, -1];
+//  function callback(item); {
+//     if (item<0) {
+//     console.log(item);
+//  arr.forEach(callback);
+//  } }
+//  printNegatives(arr)
+// tapsiriq 2
+// let arr = [2, 3, -2, 0];
+// let a = (item) => {
+//     if (item>0){
+//         console.log(item);
+//     }
+//  }
+// arr.forEach( a );
 
