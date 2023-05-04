@@ -188,3 +188,37 @@
 // console.log(arrAdd);
 // console.log(arrMain);
 // end
+// 05.05 tapsiriq 1 
+// let stockItem = {
+//     id: '0002',
+//     place: 'left',
+//     weight: '200 kg'
+//     };
+// let stockItemClone = {...stockItem};
+// let shopItem = stockItemClone;
+// shopItem.price = '100$';
+// delete shopItem.place; 
+// console.log(shopItem);
+// tapsiriq 2
+// let array = ['Nicola Tesla, 1856', 'Alan Turing, 1912', 'Ada Lovelace, 1815']
+// function sortByBirth(arr) {
+//     arr.sort((a, b) => {
+//         let yearFirst = a.split(', ')[1];
+//         let yearSecond = b.split(', ')[1];
+//         if (yearFirst < yearSecond) {
+//             return -1;
+//         };
+//         if (yearFirst > yearSecond) {
+//             return 1;
+//         };
+//         return 0;
+//     });
+//     return arr;
+// };
+// console.log(sortByBirth([
+//     'Nicola Tesla, 1856',
+//     'Alan Turing, 1912',
+//     'Ada Lovelace, 1815'
+// ]));
+// sortByBirth(array);
+  
