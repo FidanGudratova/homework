@@ -18,7 +18,7 @@
 //     if(item.length === 13 && (item[0] + item[1]) === "+7" ) {
 //     console.log(true);
 // } else {
-//     console.log (false); 
+//     console.log (false);
 //  }
 // }
 // isvalidnumber(phoneNumber);
@@ -31,7 +31,7 @@
 //4
 // let value = prompt('eded daxil edin');
 // function numberToWord(number){
-//     let x, y; 
+//     let x, y;
 //     if(number < 10){
 //         y = lower10(number[0]);
 //         x = '';
@@ -68,7 +68,7 @@
 
 //         }
 //     }
-//     console.log(`${x} ${y}`) ; 
+//     console.log(`${x} ${y}`) ;
 // }
 // function lower10(y){
 //     switch(y){
@@ -122,7 +122,7 @@
 //         if ( number % i === 0 ) {
 //         console.log (false);
 //         return false;
-//     } 
+//     }
 // }
 //    console.log(number);
 // }
@@ -147,7 +147,7 @@
 // for (let i = 0; i < text.length; i++) {
 //     if (text[i] === '.') {
 //         console.log(i);
-//         break; 
+//         break;
 //   }
 // }
 //10 2reqemli ededi 7 7 artirmaq
@@ -178,8 +178,8 @@
 // console.log(arrMax);
 // console.log(...arr);
 // tapsiriq 6
-// let arrMain = ['1', '2', '3', '4', '5'];
-// let arrAdd =[...arrMain]; 
+// let arrMain = [1, 2, 3, 4, 5];
+// let arrAdd =[...arrMain];
 // arrAdd[0] *= 2;
 // arrAdd[1] *= 2;
 // arrAdd[2] *= 2;
@@ -239,3 +239,41 @@
 // 05.05
 
  
+// 01/05
+// tapsiriq 2
+// let arr = [2, 3, -2, 0];
+// let a = (item) => {
+//     if (item>0){
+//         console.log(item);
+//  } }
+// arr.forEach(a);
+// tapsiriq 3
+// let arr = [1, 2, 3, 0, -1, -2, -3];
+// let newArr = arr.map((item) => {
+//     if(item < 0) {
+//         return item *= -1;
+//     } else {
+//         return item *= 2;
+//     }
+// });
+// console.log(newArr);
+// tapsiriq 4
+// let arr = ['red', 'green', 'blue'];
+// let new = arr.find((item) => {
+//     return item.length == 3;
+// });
+//  console.log(new);
+// let names = ['Adam', 'nick', 'ilkin', 'Anna'];
+// let resultA = names.filter((item) => {
+//     return item[0]==='A';
+//   });
+// console.log(resultA); 
+// end
+  
+
+
+
+
+
+
+
