@@ -221,4 +221,19 @@
 //     'Ada Lovelace, 1815'
 // ]));
 // sortByBirth(array);
-  
+// 05/05
+//   let obj = { 
+//     name: 'fidan', 
+//     age: 23,
+//     retirement: 0,
+//     setAge(newAge) {
+//         this.age = newAge;
+//     } ,
+//     getYearsBeforeRetir() { 
+//         this.retirement = 60 - this.age;
+//     }
+// }; 
+// obj.setAge(50);
+// obj.getYearsBeforeRetir();
+// console.log(obj);
+// 05.05
