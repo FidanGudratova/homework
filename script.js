@@ -164,7 +164,7 @@
 // let array = ['new hope' , 'empire' , 'return of jdi'];
 // for (let i = 0; i<array.length; i++) {
 //     console.log(`episode ${i+4} + ${array[i]}`);
-// }
+// };
 // tapsiriq 3
 // let array = ['fidan' , 'gudratova' , 'sumaya'];
 // array.push('mohammadi');
@@ -188,21 +188,20 @@
 // console.log(arrAdd);
 // console.log(arrMain);
 // end
-// 05.05 tapsiriq 1 
+// 05.05 tapsiriq 1
 // let stockItem = {
 //     id: '0002',
 //     place: 'left',
 //     weight: '200 kg'
 //     };
-// let stockItemClone = {...stockItem};
-// let shopItem = stockItemClone;
+// let shopItem = {...stockItem};
 // shopItem.price = '100$';
-// delete shopItem.place; 
-// console.log(shopItem);
+// delete shopItem.place;
+// console.log('shopItem:',shopitem);
 // tapsiriq 2
 // let array = ['Nicola Tesla, 1856', 'Alan Turing, 1912', 'Ada Lovelace, 1815']
 // function sortByBirth(arr) {
-//     arr.sort((a, b) => {
+//     return arr.sort((a, b) => {
 //         let yearFirst = a.split(', ')[1];
 //         let yearSecond = b.split(', ')[1];
 //         if (yearFirst < yearSecond) {
@@ -212,40 +211,35 @@
 //             return 1;
 //         };
 //         return 0;
-//     });
-//     return arr;
-// };
+//     })};
 // console.log(sortByBirth([
 //     'Nicola Tesla, 1856',
 //     'Alan Turing, 1912',
 //     'Ada Lovelace, 1815'
 // ]));
 // sortByBirth(array);
-// 05/05
-//   let obj = { 
-//     name: 'fidan', 
+// 05/05 start
+//   let obj = {
+//     name: 'fidan',
 //     age: 23,
 //     retirement: 0,
 //     setAge(newAge) {
 //         this.age = newAge;
 //     } ,
-//     getYearsBeforeRetir() { 
+//     getYearsBeforeRetir() {
 //         this.retirement = 60 - this.age;
-//     }
-// }; 
+//     }};
 // obj.setAge(50);
 // obj.getYearsBeforeRetir();
 // console.log(obj);
-// 05.05
-
- 
+// 05.05 end
 // 01/05
 // tapsiriq 2
 // let arr = [2, 3, -2, 0];
 // let a = (item) => {
 //     if (item>0){
 //         console.log(item);
-//  } }
+//  }};
 // arr.forEach(a);
 // tapsiriq 3
 // let arr = [1, 2, 3, 0, -1, -2, -3];
@@ -254,8 +248,7 @@
 //         return item *= -1;
 //     } else {
 //         return item *= 2;
-//     }
-// });
+//     }});
 // console.log(newArr);
 // tapsiriq 4
 // let arr = ['red', 'green', 'blue'];
@@ -266,14 +259,19 @@
 // let names = ['Adam', 'nick', 'ilkin', 'Anna'];
 // let resultA = names.filter((item) => {
 //     return item[0]==='A';
-//   });
-// console.log(resultA); 
+//  });
+// console.log(resultA);
 // end
-  
-
-
-
-
+// 07.05
+// let text = 'fidan gudratova';
+// let reversedText = reverseWords(text);
+// function reverseWords(text) {
+//   let words = text.split(" ");
+//   let reversedWords = words.map(word => word.split("").reverse().join(""));
+//   let reversedText = reversedWords.join(" ");
+//   return reversedText;
+// };
+// console.log(reversedText);
 
 
 
